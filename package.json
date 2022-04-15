@@ -1,0 +1,27 @@
+{
+  "name": "js-vm",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "author": {
+    "name": "Tim Meeuwissen",
+    "email": "timmeeuwissen@gmail.com"
+  },
+  "scripts": {
+    "start": "coffee -t index.coffee "
+  },
+  "jest": {
+    "preset": "jest-preset-coffeescript",
+    "testEnvironment": "node",
+    "moduleDirectories": [
+      "node_modules"
+    ]
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.2",
+    "axel": "^0.0.3",
+    "coffeescript": "^2.4.1",
+    "jest": "^24.9.0",
+    "jest-preset-coffeescript": "^1.1.1"
+  }
+}
